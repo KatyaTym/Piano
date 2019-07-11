@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+li {
+    list-style: none;
+}
+
+ul .white {
+    width: 3.2em;
+    height: 13em;
+    border-radius: 8px;
+    margin: 5px;
+    border: 3px solid grey;
+    box-shadow: -1px 0 0 rgba(255, 255, 255, 0.8) inset, 0 0 5px #ccc inset, 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: all .1s ease;
+}
+
+ul .white:active {
+    box-shadow: 0 0 1rem #196151;
+    border-color: #196151;
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-top: 170px;
+}
+
+.a,
+.s,
+.d,
+.f,
+.g,
+.h,
+.j,
+.k {
+    text-align: center;
+}
