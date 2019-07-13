@@ -2,18 +2,28 @@ body {
     background-color: black;
 }
 
-ul {
+.set {
     display: flex;
     justify-content: center;
-    margin-top: 20%;
-    padding-left: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 li {
     list-style: none;
+    margin-top: 50%;
 }
 
-ul .white {
+.piano_key {
     width: 3.2em;
     height: 13em;
     border-radius: 8px;
@@ -24,7 +34,7 @@ ul .white {
     transition: all .1s ease;
 }
 
-ul .play {
+.play {
     box-shadow: 0 0 1rem #196151;
     border-color: #196151;
     transform: scale(1.1);
@@ -32,8 +42,4 @@ ul .play {
 
 h2 {
     margin-top: 330%;
-}
-
-.set{
-    text-align: center;
 }
