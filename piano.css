@@ -24,7 +24,7 @@ ul .white {
     transition: all .1s ease;
 }
 
-ul .white:active {
+ul .play {
     box-shadow: 0 0 1rem #196151;
     border-color: #196151;
     transform: scale(1.1);
