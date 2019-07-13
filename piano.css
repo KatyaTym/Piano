@@ -5,7 +5,8 @@ body {
 ul {
     display: flex;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 20%;
+    padding-left: 0px;
 }
 
 li {
@@ -30,16 +31,9 @@ ul .white:active {
 }
 
 h2 {
-    margin-top: 170px;
+    margin-top: 330%;
 }
 
-.a,
-.s,
-.d,
-.f,
-.g,
-.h,
-.j,
-.k {
+.set{
     text-align: center;
 }
